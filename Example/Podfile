@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HjlFirstPod_Example' do
+  pod 'HjlFirstPod', :path => '../'
+
+  target 'HjlFirstPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
